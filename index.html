@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+		<script type="text/javascript" src="caman.full.js"></script>
+		<script src=AmplifEyeHome.js> </script>
+		<link type="text/css" rel="stylesheet" href="AmplifEyeHome.css" media="all"/>
+
+		
+<title>AmplifEye</title>
+
+<!-- Bootstrap Core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link href="css/five.css" rel="stylesheet">
+
+<!-- Custom Fonts -->
+<link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,600,600italic' rel='stylesheet' type='text/css'>
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container"> 
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+    </div>
+    <span class="navbar-header page-scroll"><a class="navbar-brand page-scroll" href="#page-top">AmplifEye</a></span> 
+    
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden"> <a href="#page-top"></a> </li>
+        <li> <a class="page-scroll" href="#services">Filter</a> </li>
+        <li> <a class="page-scroll" href="#about">Learn</a> </li>
+        <li> <a class="page-scroll" href="#portfolio">About</a> </li>
+        <li> <a class="page-scroll" href="#team">The AmplifEyers</a> </li>
+        <li> <a class="page-scroll" href="#contact">Donate</a> </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse --> 
+  </div>
+  <!-- /.container-fluid --> 
+</nav>
+
+<!-- Header -->
+<header>
+  <div class="container">
+    <div class="intro-text">
+      <div class="intro-lead-in">Welcome to</div>
+      <div class="intro-heading">AmplifEye<br>
+        <!--</div>
+      <a href="#services" class="page-scroll btn btn-xl"><i class="fa fa-angle-double-down fa-4x"></i></a> </div>
+  </div>-->
+</header>
+
+<!-- Filter Section -->
+<section id="services" >
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Filter</h2>
+        <div class="line"></div>
+      </div>
+    </div>
+    		<div class="camera">
+			<video id="video">Video stream not available.</video> 
+    		<button id="startbutton">Take Photo</button> 
+    		<button id="protanope">Protanope</button>
+    		<button id="deuteranope">Deuteranope</button>
+    		<button id="tritanope">Tritanope</button>
+    		<!--sdo-->
+
+ 		 </div>
+  		<canvas id="canvas"> </canvas>
+  		<div id="output">
+    		<img id="photo" alt="The screen capture will appear in this box."> 
+  		</div>
+
+  		
+  		<canvas id="myCanvas" width="320" height="240" style="border:1px solid #d3d3d3;"></canvas>
+  		<!--<img id="DogImg" src="images.jpg" alt="Dog" width="210" length="230" position="relative">-->
+  		<!--<img id="DogImg" src="CBTest.jpg">-->
+		
+    <div>
+  			<p class="display">Original</p>
+  		</div>
+  		
+  		<div>
+  			<p class="dalton">Filtered</p>
+  			
+  		</div>
+<!--<div class="selection-heading">
+  	<a class="ui-btn ui-corner-all" class="button">Donate</a>
+</div>-->
+
+</section>
+
+<!-- Learn Section -->
+<section id="about" class="bg-light-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Learn</h2>
+        <div class="line"></div>
+      </div>
+    </div>
+<body>
+
+<div class="team-member">
+<h1 class="selection-heading"><center>What is Colorblindness?<center></h1>
+<h4><center>
+Colorblindness is a vision problem that impairs one's ability to see colors normally. It is usually a genetic mutation that occurs on the X chromosome. Colorblindness occurs in 8% of males and 0.5% of females. There are several types of colorblindness which include deuteranopia, protanopia, and tritanopia. Deuteranopia, or red-green colorblindness is the most common type of colorblindness. Affected individuals have a hard time distinguishing between reds and greens, but also other colors. Those with Protanopia have a hard time distinguishing between blue and green as well as red and green. Those affected by Tritanopia, the most rare type of colorblindness, confuse blue with green and yellow with violet. </h4>
+</div>
+<div class="row">
+      <div class="col-sm-3">
+        <div class="team-member"> <img src="no.jpg">
+          <h4>Normal Vision</h4>
+        </div>
+      </div>
+      
+<div class="col-sm-3">
+        <div class="team-member"> <img src="pro.jpg">
+          <h4>Protanopia</h4>
+     </div>
+     </div>
+
+<div class="col-sm-3">
+        <div class="team-member"> <img src="d.jpg">
+          <h4>Deuteranopia</h4>
+     </div>
+     </div>
+
+<div class="col-sm-3">
+        <div class="team-member"> <img src="t.jpg">
+          <h4>Tritanopia</h4>
+     </div>
+</div>
+
+<div class="team-member">
+<h1 class="test"><center>Colorblind Test<center></h1>
+<h4 class ="ap"><center>Think you may be colorblind? Take the test!<center></h4>
+<h4 class="ui-link"><a href="http://www.color-blindness.com/ishihara-38-plates-cvd-test/" style=color:#66CCCC rel="external">Test</a></h4>
+
+<h2 class = "info"><center>Further Info<center></h2>
+<h4><center>Do you want to learn more about colorblindness? Check out the links below!<center></h4>
+<h4><a href="http://www.color-blindness.com/deuteranopia-red-green-color-blindness/"  font-size=24px; style=color:#66CCCC rel="external">Colblindor Deuteranopia</a></h4>
+<h4><a href="http://www.colourblindawareness.org/colour-blindness/types-of-colour-blindness/" style=color:#66CCCC rel="external">Colour Blind Awareness</a></h4>
+<h4><a href="http://www.vischeck.com/daltonize/" style=color:#66CCCC rel="external">Vischeck Daltonize<a/a></h4>
+</div>
+  
+
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">About</h2>
+        <div class="line"></div>
+      </div>
+    </div>
+    <center><img src="us.jpg" style="width:550px; height:550;"></center>
+<div><h1 class="section-heading"><center>About Us</center></h1>
+<h4>We are incoming
+juniors and seniors, and attended Girls Who Code at Square during the summer of 2015. Girls Who Code
+is a seven-week summer immersion program, and we learned various Computer Science topics:
+Scratch,Python,Java Script, HTML, and Robotics.
+  <a href="http://girlswhocode.com/"target="_blank" style=color:#66CCCC text-decoration:none;>
+  Learn more about Girls Who Code!</a>
+  
+</h4>
+<h2 class="header""><center>Why Make AmplifEye?</center></h2>
+<h4>
+AmplifEye's aim is to tackle the problem of colorblindness. Our target audience includes
+ all people who are affected by colorblindness, specifically those who suffer from
+ Deuteranopia, Tritanopia, and Protanopia. 8% of men and 0.5% of women are colorblind,
+  which is about one out of twelve men and one out of two hundred women. Colorblindness
+  is an obstacle and hindrance in the lives of those affected, and we strive to mitigate
+  the negative effects through our creation.
+</h4>
+  </div>
+
+</section>
+<!--End of LEARN-->
+
+<!-- The AmplifEyers Section -->
+<section id="team" class="bg-light-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">The AmplifEyers</h2>
+        <div class="line"></div>
+      </div>
+    </div>
+        <div class="row">
+      <div class="col-sm-3">
+        <div class="team-member"> <img src="k.jpg" class="img-responsive img-circle" alt="">
+          <h4 >Kaysie Yu</h4>
+          <p class="text-muted">International High School</p>
+          <ul class="list-inline social-buttons">
+            <li><a href="https://www.linkedin.com/pub/kaysie-yu/b3/211/771"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="team-member"> <img src="a.jpg" class="img-responsive img-circle" alt="">
+          <h4>Alexandria Brown</h4>
+          <p class="text-muted">Lowell High School</p>
+          <ul class="list-inline social-buttons">
+            <li><a href="https://www.linkedin.com/pub/alexandria-brown/100/845/65b"><i class="fa fa-linkedin"></i></a> </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="team-member"> <img src="am.jpg" class="img-responsive img-circle" alt="">
+          <h4>Amethyst Baumgartner</h4>
+          <p class="text-muted">Lick Wilmerding High School</p>
+          <ul class="list-inline social-buttons">
+            <li><a href="https://www.linkedin.com/pub/amethyst-baumgartner/100/a97/a45"><i class="fa fa-linkedin"></i></a> </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="team-member"> <img src="m.jpg" class="img-responsive img-circle" alt="">
+          <h4>Michelle Tan</h4>
+          <p class="text-muted">George Washington High School</p>
+          <ul class="list-inline social-buttons">
+            <li><a href="https://www.linkedin.com/pub/michelle-tan/100/a97/971"><i class="fa fa-linkedin"></i></a> </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+<!--    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+      </div>
+    </div>-->
+
+
+  </div>
+</section>
+
+<!-- Donate Section -->
+<section id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Donate</h2>
+        <div class="line"></div>
+      </div>
+      <div class="section-heading">
+    <h2 color="white">Support the Cause</h2>
+    <h3>National Association for the Advancement of Color-Blind People (NAACBP)<br></h4>
+    <h4 >The mission of the National Association for the Advancement of Color-Blind People is to facilitate change in areas where color-blind people face a disadvantage because of color inequality, as well as to work to remove these hurdles that exist for the color-blind. We are dedicated to promoting changes concerning confusion and misunderstandings due to non-color-blind friendly situations, education of color-blindness, and early identification and awareness. In facilitating change we hope to create more flexibility in fields where color-blind people have been left at a disadvantage or completely excluded. </h3>
+    <a href="http://naacbp.org/donations.php" class="ui-btn ui-btn-inline">Donate</a>
+
+<br>
+<!--<img id="logo" src="Logo.jpg" alt="AmplifEye Logo" style="width:324px;height:209px">
+   <div data-role="footer"></div></center>
+</div>-->
+</div>
+    </div>
+</div>
+    
+
+</body>
+
+  </div>
+</section>
+
+<!--FOOTER-->
+<footer>
+  <div class="container">
+    <div class="row">
+    
+    </div>
+  </div>
+</footer>
+
+
+<!-- jQuery --> 
+<script src="js/jquery.js"></script> 
+
+<!-- Bootstrap Core JavaScript --> 
+<script src="js/bootstrap.min.js"></script> 
+
+<!-- Plugin JavaScript --> 
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script> 
+<script src="js/classie.js"></script> 
+<script src="js/cbpAnimatedHeader.js"></script> 
+
+<!-- Contact Form JavaScript --> 
+<script src="js/jqBootstrapValidation.js"></script> 
+<script src="js/contact_me.js"></script> 
+
+<!-- Custom Theme JavaScript --> 
+<script src="js/five.js"></script>
+</body>
+</html>

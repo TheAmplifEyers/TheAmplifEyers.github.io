@@ -1,0 +1,233 @@
+
+
+
+body {
+background-image: url(Blue.jpg);
+margin-top: 15 px;
+}
+
+#actions{
+font-weight: normal;
+color: #000000;
+font-size: 10;
+padding: 5px;
+width: 100%
+}
+
+.actionItem{
+font-size: 10;
+}
+
+.toolbar{
+position: relative;
+top:200;
+left:400;
+width: 100%;
+height; 30px;
+background: #008B8B;
+}
+
+
+
+
+//////For the Webcam
+#video {
+  border: 1px solid black;
+  box-shadow: 2px 2px 3px black;
+  width:320px;
+  height:240px;
+  top: 100px; 
+}
+
+#photo {
+  border: 1px solid black;
+  box-shadow: 2px 2px 3px black;
+  width:320px;
+  height:240px;
+}
+
+#my-image{
+	opacity: 0.9;
+}
+
+#canvas {
+  display:none;
+}
+
+.camera {
+  width: 340px;
+  display:inline-block;
+}
+
+#output {
+  width: 340px;
+  display:inline-block;
+  left: 10px;
+}
+
+#startbutton {
+  display:block;
+  position:relative;
+  margin-left:auto;
+  margin-right:auto;
+  /*bottom:32px;*/
+  background-color: rgba(0, 0, 204, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 0px 1px 2px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  font-family: "Lucida Grande", "Arial", sans-serif;
+  color: rgba(255, 255, 255, 1.0);
+  width: 200px;
+  height: 40px;
+}
+
+#protanope {
+  display:block;
+  position:relative;
+  margin-left:auto;
+  margin-right:auto;
+  /*bottom:32px;*/
+  background-color: rgba(153, 204, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 0px 1px 2px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  font-family: "Lucida Grande", "Arial", sans-serif;
+  color: rgba(255, 255, 255, 1.0);
+  width: 200px;
+  height: 40px;
+}
+
+#deuteranope{
+  display:block;
+  position:relative;
+  margin-left:auto;
+  margin-right:auto;
+  /*bottom:32px;*/
+  background-color: rgba(153, 204, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 0px 1px 2px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  font-family: "Lucida Grande", "Arial", sans-serif;
+  color: rgba(255, 255, 255, 1.0);
+  width: 200px;
+  height: 40px;
+}
+
+#tritanope{
+  display:block;
+  position:relative;
+  margin-left:auto;
+  margin-right:auto;
+  /*bottom:32px;*/
+  background-color: rgba(153, 204, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 0px 1px 2px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  font-family: "Lucida Grande", "Arial", sans-serif;
+  color: rgba(255, 255, 255, 1.0);
+  width: 200px;
+  height: 40px;
+}
+
+.contentarea {
+  font-size: 16px;
+  font-family: "Lucida Grande", "Arial", sans-serif;
+  width: 760px;
+}
+
+.display{
+display:block;
+  position: relative;
+  bottom: 400px;
+  margin-left:440px;
+  margin-right:auto;
+
+  font-size: 34px;
+  font-family: "Lucida Grande", "Arial", sans-serif;
+  color: rgba(0, 0, 0, 1.0);
+  width: 200px;
+  height: 40px;
+	color: white;
+}
+
+.dalton{
+display:block;
+  position: relative;
+  bottom: 250px;
+  margin-left:775px;
+  margin-right:auto;
+  font-size: 34px;
+  font-family: "Lucida Grande", "Arial", sans-serif;
+  color: rgba(0, 0, 0, 1.0);
+  width: 200px;
+  height: 40px;
+color: white;
+}
+
+.ui-btn ui-corner-all{
+left: 500px;
+}
+.ui-btn ui-btn-inline{
+left: 500px;
+width: 100px;
+
+}
+
+.don{
+display:block;
+  position: relative;
+  bottom: -150px;
+  margin-left:520px;
+  margin-right:auto;
+  /*bottom:32px;*/
+/*  background-color: rgba(113, 150, 27, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 0px 1px 2px rgba(0, 0, 0, 0.2);*/
+  font-size: 16px;
+  font-family: "Lucida Grande", "Arial", sans-serif;
+  color: rgba(0, 0, 0, 1.0);
+  width: 200px;
+  height: 40px;
+}
+
+.color{
+background-color:#428BCA;
+}
+
+.img-with-text {
+    text-align: center;
+    width: [200];
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+
+.ui-link{
+color: cyan;
+}
+
+#logo{
+bottom: 200px;
+}
+
+.blue{
+color: blue;
+}
+
+.button{
+position: relative;
+bottom: 200px;
+left: 400px;
+color: blue;
+}
+
+.first{
+font-size: 30px;
+}
+
+
+
+
+

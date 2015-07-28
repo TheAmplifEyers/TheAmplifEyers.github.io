@@ -1,0 +1,287 @@
+
+    		
+<!DOCTYPE html>  		
+<html lang="en">
+	<head>
+		<title> AmplifEye </title>
+		<!--These will allow you to use the JQuery files-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.3.1.min.js"></script>
+		<script type="text/javascript" src="caman.full copy.js"></script>
+		<script src=AmplifEyeHome copy.js> </script>
+		<link type="text/css" rel="stylesheet" href="AmplifEyeHome copy.css" media="all"/>
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<style type="text/css">
+    p{
+        padding: 50px;
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+        background: #f2f2f2;
+    }
+</style>	
+	</head>
+	
+	<body> 
+
+      <div class="row">
+      <div class="span4">Home</div>
+      <div class="span8">About</div>
+    </div>
+      
+       
+    
+
+        
+
+
+    
+    
+	<div data-role="page" id="Home">
+		<div data-role="header"><center><h1> AmplifEye </h1></center></div>
+  			<div data-role="navbar">
+			<ul>
+      			<li><a href="#about" data-ajax="false">About</a></li>
+      			<li><a href="#learn">Learn</a></li>
+      			<li><a href="#amp" data-ajax="false">The AmplifEyers</a></li>
+      			<li><a href="#donate">Donate</a></li>
+    		</ul>
+  			</div>
+			
+			<div id="one" class="ui-body-d ui-content">
+			</div>
+			
+		<div class="camera">
+			<video id="video">Video stream not available.</video> 
+    		<button id="startbutton">Take Photo</button> 
+    		<!--sdo-->
+
+ 		 </div>
+  		<canvas id="canvas"> </canvas>
+  		<div id="output">
+    		<img id="photo" alt="The screen capture will appear in this box."> 
+  		</div>
+  		
+  		<canvas id="myCanvas" width="320" height="240" style="border:1px solid #d3d3d3;"></canvas>
+  		<!--<img id="DogImg" src="images.jpg" alt="Dog" width="210" length="230" position="relative">-->
+  		<!--<img id="DogImg" src="CBTest.jpg">-->
+		</div>	
+		
+		
+	
+		
+
+<!--DONATE PAGE-->
+<div data-role="page" id="donate">
+
+<title>Donate</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+<script src="AmplifEye.js"></script>
+<link type="text/css" rel="stylesheet" href="AmplifEye.css"/>
+
+<body>
+<div data-role="header"><h1><center>Donate</center></h1></div>
+<div data-role="navbar">
+    <ul>
+        <li><a href="#Home" "data-ajax="false">Home</a></li>
+        <li><a href="#about" "data-ajax="false">About</a></li>
+        <li><a href="#amp" "data-ajax="false">The AmplifEyers</a></li>
+        <li><a href="#learn" "data-ajax="false">Learn</a></li>
+    </ul>
+</div>
+    <h2>Support the Cause</h2>
+    <h3>National Association for the Advancement of Color-Blind People (NAACBP)<br></h4>
+    <h4>The mission of the National Association for the Advancement of Color-Blind People is to facilitate change in areas where color-blind people face a disadvantage because of color inequality, as well as to work to remove these hurdles that exist for the color-blind. We are dedicated to promoting changes concerning confusion and misunderstandings due to non-color-blind friendly situations, education of color-blindness, and early identification and awareness. In facilitating change we hope to create more flexibility in fields where color-blind people have been left at a disadvantage or completely excluded. </h3>
+    <a href="http://naacbp.org/donations.php" class="ui-btn ui-corner-all">
+    <button class="ui-btn ui-corner-all">Donate</button></a>
+<br>
+<img id="logo" src="AmplifEyeLogo.jpg" alt="AmplifEye Logo" style="width:324px;height:209px">
+    <div data-role="footer"></div></center>
+</div>
+
+</body>
+
+<!--End of DONATE PAGE-->
+	
+		
+<!--LEARN PAGE-->
+<div data-role="page" id="learn">
+
+<title>Learn</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+<!--<script src="LearnPage.js"></script>-->
+<link type="text/css" rel="stylesheet" href="LearnPage.css"/>
+
+
+<body>
+<style>
+body {
+    background: url(blue.jpg) !important;
+    background-attachment:fixed;
+    background-size:cover;
+}
+
+.ui-page, .ui-content, .ui-btn {
+    background: transparent;
+}
+</style>
+
+<style>
+.ui-page .ui-header {
+    background:  #7ACEF4 !important;
+}
+</style>
+
+<div data-role="header"><h1><center>Learn</center></h1></div>
+
+<div data-role="navbar">
+    <ul>
+     	<li><a href="#Home" "data-ajax="false">Home</a></li>
+        <li><a href="#about" data-ajax="false">About</a></li>
+		<li><a href="#amp" "data-ajax="false">The AmplifEyers</a></li>
+      	<li><a href="#donate" data-ajax="false">Donate</a></li>
+    </ul>
+</div><!-- /navbar -->
+
+<h1 class="title"><center>What is Colorblindness?<center></h1>
+<p class="first"><center>Colorblindness is a vision problem that impairs one's ability to see colors normally. It is usually a genetic mutation that occurs on the X chromosome. Colorblindness occurs in 8% of males and 0.5% of females. There are several types of colorblindness which include deuteranopia, protanopia, and tritanopia. Deuteranopia, or red-green colorblindness is the most common type of colorblindness. AmplifEye specifically targets Deuteranomaly, also know as green-weak colorblindness. This means that the affected individual has a hard time distinguishing between reds and greens, but also other colors. </p>
+<center> <img class="pic" src = "pic.jpg"/> <center>
+
+<h1 class="test"><center>Colorblind Test<center></h1>
+<p2 class ="ap"><center>Think you may be colorblind? Take the test!<center></p2>
+<p class="link"><a href="http://www.color-blindness.com/ishihara-38-plates-cvd-test/" rel="external">Test</a></p>
+
+<h2 class = "info"><center>Further Info<center></h2>
+<p><center>Do you want to learn more about colorblindness? Check out the links below!<center></p>
+<p><a href="http://www.color-blindness.com/deuteranopia-red-green-color-blindness/" rel="external">Colblindor Deuteranopia</a></p>
+<p><a href="http://www.colourblindawareness.org/colour-blindness/types-of-colour-blindness/" rel="external">Colour Blind Awareness</a></p>
+<p><a href="http://www.vischeck.com/daltonize/" rel="external">Vischeck Daltonize<a/a></p>
+
+<!--End of LEARN PAGE-->
+</div>
+</div>
+</body>
+
+<!--ABOUT PAGE-->
+<div data-role="page" id="page1">
+<div data-role="header"><h1 style="font-family: Florence,cursive;color:#00006B;">
+AmplifEye:About</h1></div>    
+<div data-role="tabs" id="tabs">
+  <div data-role="navbar">
+    <ul>
+      <li><a href="#about" data-ajax="false">About</a></li>
+      <li><a href="#Home" data-ajax="false">Home</a></li>
+      <li><a href="#amp" "data-ajax="false">The AmplifEyers</a></li>
+    </ul>
+  </div>
+<div id="one" class="ui-body-d ui-content">
+<style>
+
+.ui-page, .ui-content, .ui-btn {
+    background: transparent;
+}
+</style>
+<center><img src="us.jpg" style="width:550px; height:550;"></center>
+<div class="div"><h1 class="header"><center>About Us</center></h1>
+<p1 class="p">We are incoming
+juniors and seniors, and attended Girls Who Code at Square during the summer of 2015. Girls Who Code
+is a seven-week summer immersion program, and we learned various Computer Science topics:
+Scratch,Python,Java Script, HTML, and Robotics.
+  <a href="http://girlswhocode.com/"target="_blank" style="color:#FF000text-decoration:none;">
+  Learn more about Girls Who Code!</a>
+</p1>
+<h2 class="header""><center>Why Make AmplifEye?</center></h2>
+<p2 class="p">
+AmplifEye's aim is to tackle the problem of colorblindness. Our target audience includes
+ all people who are affected by colorblindness, specifically those who suffer from
+ Deuteranopia, Tritanopia, and Protanopia.8% of men and 0.5% of women are colorblind,
+  which is about one out of twelve men and one out of two hundred women. Colorblindness
+  is an obstacle and hindrance in the lives of those affected, and we strive to mitigate
+  the negative effects through our creation.
+</p2>
+  </div>
+   </div>
+
+<!--AEND OF ABOUT PAGE-->
+
+<script>
+	////OLD CODE	
+/*	document.getElementById("photo").onload = function() {
+    	var c = document.getElementById("myCanvas");
+    	var ctx = c.getContext("2d");
+    	var img = document.getElementById("photo");
+    	ctx.drawImage(img, 0, 0);
+    	var imgData = ctx.getImageData(0, 0, c.width, c.height);
+    //rgb colors
+    	var r = imgData.data[i];
+    	var g = imgData.data[i+1];
+    	var b = imgData.data[i+2];
+    	var a = imgData.data[i+3];
+    	    
+    	var i;
+    	for (i = 0; i < imgData.data.length; i+=4) {
+    		var blueValue = (imgData.data[i]*2.5+imgData.data[i+1] + imgData.data[i+2]*1)/3
+    		var redValue = (imgData.data[i]*2 + imgData.data[i+1] +imgData.data[i+2]*0.5)/3
+    		var greenValue = (imgData.data[i] + imgData.data[i+2])/2
+    		
+  		
+    		if (imgData.data[i]<225){
+        		imgData.data[i] = redValue;
+        	}
+        	if (imgData.data[i+1]<225){
+        		imgData.data[i+1] = blueValue;
+        	}
+        	if (imgData.data[i+2]<225){
+        		imgData.data[i+2] = greenValue;
+        	}
+        	imgData.data[i+3] = 255;
+    };
+    		
+    	//tint image
+    		/*r = r + (1.5 * (255-r));
+    		g = g + (1.5 * (255-g));
+    		b = b + (1.5 * (255-b));*/
+    	
+    	//grey scale
+    		/*if (50<imgData.data[i]<255 && 20<imgData.data[i+1]<255 && 20<imgData.data[i+2]<225){
+    			imgData.data[i] = redValue;
+    			imgData.data[i+1] = blueValue;
+    			imgData.data[i+2] = greenValue;
+    		}*/
+
+    	// invert colors	
+/*        	imgData.data[i] = 255 - imgData.data[i];
+        	imgData.data[i+1] = 220 - imgData.data[i+1];
+        	imgData.data[i+2] = 75 - imgData.data[i+2];
+        	imgData.data[i+3] = 200;*/
+    	//}
+    	
+//    	 ctx.putImageData(imgData, 0, 0);
+	
+//	};
+	//USE DICTIONARY AND ASSIGN NORMAL VISION COLOR KEYS TO DEUTERANALOMY VISION SPECTRUM KEYS
+</script>
+		
+		
+	</body>
+</html>
+
+	
+
+	
+
